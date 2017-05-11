@@ -3,9 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Contenido de la pagina</title>
+	<title>Plantilla</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -65,154 +67,123 @@
 	</header>
 <!-- AQUI TERMINA LA BARRA DE NAVEGACION SUPERIOR -->
 
+<!-- AQUI INICIA EL CARRUSEL -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    	<li data-target="#myCarousel" data-slide-to="1"></li>
+    	<li data-target="#myCarousel" data-slide-to="2"></li>
+  	</ol>
 
-<section class="main container">
-	<div class="row">
-		<section class="posts col-md-9">
-			<div class="migas-de-pan">
-				<ol class="breadcrumb">
-					<li><a href="#">Inicio</a></li>
-					<li><a href="#">Categoria</a></li>
-					<li class="active">Diseño web</li>
-				</ol>
-			</div>
-
-			<article class="post clearfix">
-				<a href="#" class="thumb pull-left">
-					<img src="img/1.jpg" class="img-thumbnail" alt="imagen1">
-				</a>
-				<h2 class="post-title">
-					<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-				</h2>
-					<p><span class="post-fecha">26/01/2015</span> por <span class="post-autor"><a href="#">Jose Alfredo</a></span></p>
-					<p class="post-contenido text-justify"	>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-				<div class="contenedor-botones">
-					<a href="#" class="btn btn-primary">Leer mas...</a>
-					<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
-				</div>
-			</article>
-
-
-
-			<article class="post clearfix">
-				<a href="#" class="thumb pull-left">
-					<img src="img/2.jpg" class="img-thumbnail" alt="imagen2">
-				</a>
-				<h2 class="post-title">
-					<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-				</h2>
-					<p><span class="post-fecha">26/01/2015</span> por <span class="post-autor"><a href="#">Jose Alfredo</a></span></p>
-					<p class="post-contenido text-justify"	>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-				<div class="contenedor-botones">
-					<a href="#" class="btn btn-primary">Leer mas...</a>
-					<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
-				</div>
-			</article>
-
-			<article class="post clearfix">
-				<a href="#" class="thumb pull-left">
-					<img src="img/3.png" class="img-thumbnail" alt="imagen3">
-				</a>
-				<h2 class="post-title">
-					<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-				</h2>
-					<p><span class="post-fecha">26/01/2015</span> por <span class="post-autor"><a href="#">Jose Alfredo</a></span></p>
-					<p class="post-contenido text-justify"	>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-				<div class="contenedor-botones">
-					<a href="#" class="btn btn-primary">Leer mas...</a>
-					<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
-				</div>
-			</article>
-			
-			<nav>
-				<div class="center-block">
-					<ul class="pagination">
-						<li class="disabled"><a href="#">&laquo;<span class="sr-only">Anterior</span></a></li>
-						<li class="active"><a href="#">1</a></li>
-						<li><a href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">&raquo; <span class="sr-only">Siguiente</span></a></li>
-					</ul>
-				</div>
-			</nav>
-		</section>
-
-		<aside class="col-md-3 hidden-xs hidden-sm">
-			<h4>Categorias</h4>
-			<div class="list-group">
-				<a href="#" class="list-group-item active">Diseño web</a>
-				<a href="#" class="list-group-item">CSS</a>
-				<a href="#" class="list-group-item">Cursos</a>
-				<a href="#" class="list-group-item">Desarrollo web</a>
-				<a href="#" class="list-group-item">Elementos web</a>
-				<a href="#" class="list-group-item">JQuery</a>
-				<a href="#" class="list-group-item">Recursos</a>
-			</div>
-
-			<h4>Articulos recientes</h4>
-			<a href="#" class="list-group-item">
-				<h4 class="list-group-item-heading">Inicia proyectos HTML5 mas rapido con Initializr</h4>
-				<p class="list-group-item-text">Aprende como  iniciar un proyecto con HTML5</p>
-			</a>
-
-			<a href="#" class="list-group-item">
-				<h4 class="list-group-item-heading">Inicia proyectos HTML5 mas rapido con Initializr</h4>
-				<p class="list-group-item-text">Aprende como  iniciar un proyecto con HTML5</p>
-			</a>
-
-			<a href="#" class="list-group-item">
-				<h4 class="list-group-item-heading">Inicia proyectos HTML5 mas rapido con Initializr</h4>
-				<p class="list-group-item-text">Aprende como  iniciar un proyecto con HTML5</p>
-			</a>
-		</aside>
+  <!-- Wrapper for slides -->
+<div class="carousel-inner" align="center">
+	<div class="item active">
+    	<img src="img/slide1.jpg" alt="Ciencia" width="1600" height="530">
 	</div>
-</section>
+
+    <div class="item">
+    	<img src="img/slide2.jpg" alt="Auto honda" width="1600" height="530">
+    </div>
+
+    <div class="item">
+    	<img src="img/slide3.jpg" alt="Comedor" width="1600" height="530">
+    </div>
+</div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- AQUI TERMINA EL CARRUSEL -->
+
+<!-- AQUI EMPIEZAN LOS ARCICULOS -->
+	<article class="post clearfix">
+		<a href="#" class="thumb pull-left">
+			<img src="img/1.jpg" class="img-thumbnail" alt="imagen1">
+		</a>
+		<h2 class="post-title">
+			<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+		</h2>
+			<p><span class="post-fecha">26/01/2015</span> por <span class="post-autor"><a href="#">Jose Alfredo</a></span></p>
+			<p class="post-contenido text-justify"	>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+		<div class="contenedor-botones">
+			<a href="#" class="btn btn-primary">Leer mas...</a>
+			<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
+		</div>
+	</article>
 
 
+	<article class="post clearfix">
+		<a href="#" class="thumb pull-left">
+			<img src="img/2.jpg" class="img-thumbnail" alt="imagen2">
+		</a>
+		<h2 class="post-title">
+			<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+		</h2>
+			<p><span class="post-fecha">26/01/2015</span> por <span class="post-autor"><a href="#">Jose Alfredo</a></span></p>
+			<p class="post-contenido text-justify"	>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+			<div class="contenedor-botones">
+				<a href="#" class="btn btn-primary">Leer mas...</a>
+			<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
+		</div>
+	</article>
+
+	<article class="post clearfix">
+		<a href="#" class="thumb pull-left">
+			<img src="img/3.png" class="img-thumbnail" alt="imagen3">
+		</a>
+		<h2 class="post-title">
+			<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+		</h2>
+			<p><span class="post-fecha">26/01/2015</span> por <span class="post-autor"><a href="#">Jose Alfredo</a>
+			</span></p>
+			<p class="post-contenido text-justify"	>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+	</article>
+
+<!-- AQUI TERMINAN LOS ARCICULOS -->				
+
+<!-- AQUI INICIA EL FOOTER -->
 	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-6">
-					<p>Todos los derechos reservados 2017</p>
-				</div>
-				<div class="col-xs-6">
-					<ul class="list-inline text-right">
-						<li><a href="#">Inicio</a></li>
-						<li><a href="#">Cursos</a></li>
-						<li><a href="#">Contacto</a></li>
-					</ul>
-				</div>
-			</div>
+		<div class="text-center center-block"><hr>
+			<p class="txt-railway">D.Odontologos &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp siguenos en...</p>
+	        <a href="https://www.facebook.com/perlasofia.medinasoria?ref=ts&fref=ts"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+		    <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+		    <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+		    <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
 		</div>
 	</footer>
+<!-- AQUI TERMINA EL FOOTER -->
 
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<!-- <script src="js/jquery1.js"></script> -->
 
 </body>
 </html>

@@ -10,6 +10,7 @@
 </head>
 <body>
 
+<<<<<<< HEAD:index.html
 <!-- AQUI INICIA EL JumboTron -->
 	<section class="jumbotron">
 		<div class="container">
@@ -124,6 +125,8 @@
 <!-- Carrusel -->
 =======
 <!-- AQUI TERMINA LA BARRA DE NAVEGACION SUPERIOR -->
+=======
+>>>>>>> pruebas:paginas/principal.php
 
 <!-- AQUI INICIA EL CARRUSEL -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -229,17 +232,7 @@
 
 <!-- AQUI TERMINAN LOS ARCICULOS -->				
 
-<!-- AQUI INICIA EL FOOTER -->
-	<footer>
-		<div class="text-center center-block"><hr>
-			<p class="txt-railway">Jose Alfredo &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp siguenos en...</p>
-	        <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-		    <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-		    <a href="https://plus.google.com"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-		    <a href="https://mail.google.com/mail/u/0/#inbox"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-		</div>
-	</footer>
-<!-- AQUI TERMINA EL FOOTER -->
+
 
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>

@@ -1,9 +1,13 @@
-.navbar 
+/*.navbar 
 	{
 		margin-bottom: 0;
-		height: 53px;
-
-	}
+		height: auto;
+		width: 100%;
+		z-index: 999;
+  		position:static;
+  		top: 0;
+  		left: 0;
+	}*/
 
 .jumbotron
 	{
@@ -74,13 +78,28 @@ h3
 				margin-right: 0;
 			}
 	}
-#fixed {
-  z-index: 999;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 85px;
-}
+.menu 
+	{		
+	  	position:fixed;
+	  	z-index:1000;
+	  	top: 0;
+	  	max-width: 1000%;
+	  	box-shadow: 0px 5px 3px rgba(0,0,0,.5);
+	  	height: 52	px;
+		width: 100%;
+	  	left: 0;
+	}
+
+.menu-fixed
+	{
+		position: static;
+		z-index: 1000;
+		top:0;
+		width: 100%;
+		box-shadow:0 4px 4px rgba(0,0,0,.5);
+
+	}
+
 
 
 /* -- AQUI EMPIEZAN ESTILOS DEL FOOTER -- */
@@ -118,4 +137,21 @@ h3
 	{
 		margin-bottom: 30px;
 	}
+<<<<<<< HEAD
+>>>>>>> pruebas
+=======
+
+
+
+
+/* -- CONTACTO -- */
+#contacto 
+	{
+		margin:0px;
+		background-position: center;
+		background-image: url("https://exploradorssite.files.wordpress.com/2016/05/contact-us-banner.jpg");
+		background-size: 1520px;
+		background-repeat: no-repeat;
+	}
+/* -- CONTACTO -- */
 >>>>>>> pruebas

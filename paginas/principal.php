@@ -10,123 +10,11 @@
 </head>
 <body>
 
-<<<<<<< HEAD:index.html
-<!-- AQUI INICIA EL JumboTron -->
-	<section class="jumbotron">
-		<div class="container">
-			<h1 class="titulo-blog">Pagina de prueba</h1>
-			<p>Primer pagina de prueba</p>
-		</div>
-	</section>
-<!-- AQUI TERMINA EL JUMBOTRON -->
 
-<!-- AQUI INICIA LA BARRA DE NAVEGACION SUPERIOR -->
-	<header>
-<<<<<<< HEAD
-	<img src="imagenes/logo.png" alt="Ratio" width="150" height="150">
-	<h3></h3>
-		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-=======
-		<nav class="navbar navbar-inverse navbar-static-top" role="navigation" id="menu-fixed">
->>>>>>> pruebas
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion_j">
-						<span class="sr-only">Desplegar / Ocultar menú</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a href="#" class="navbar-brand">Pagina de prueba</a>
-				</div>
-				<!-- INICIA MENU -->
-				<div class="collapse navbar-collapse" id="navegacion_j">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#">Inicio</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-								Servicios<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">Servicio #1</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Servicio #2</a></li>
-								<li><a href="#">Servicio #3</a></li>
-								<li><a href="#">Servicio #4</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Conocenos</a></li>
-						<li><a href="#">Contacto</a></li>
-					</ul>
+	
+		
+		
 
-					<form action="" class="navbar-form navbar-right" role="search">
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="buscar">
-						</div>
-						<button type="submit" class="btn btn-primary">
-							<span class="glyphicon glyphicon-search"></span>
-						</button>
-					</form>			
-				</div>
-			</div>
-		</nav>
-	</header>
-<<<<<<< HEAD
-	<!-- JumboTron -->
-<!-- <section class="jumbotron">
-	<div class="container">
-		<h1 class="titulo-blog">Pagina de prueba</h1>
-		<p>Primer pagina de prueba</p>
-	</div>
-</section> -->
-
-<!-- Carrusel -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="imagenes/1.jpg" alt="game">
-    </div>
-
-    <div class="item">
-      <img src="imagenes/2.jpg" alt="Bandera">
-    </div>
-
-	<div class="item">
-      <img src="imagenes/3.jpg" alt="canicas">
-    </div>
-
-    <div class="item">
-      <img src="imagenes/4.jpg" alt="soldado">
-    </div>
-
-    <div class="item">
-      <img src="imagenes/5.jpg" alt="canicas">
-    </div>    
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<!-- Carrusel -->
-=======
-<!-- AQUI TERMINA LA BARRA DE NAVEGACION SUPERIOR -->
-=======
->>>>>>> pruebas:paginas/principal.php
 
 <!-- AQUI INICIA EL CARRUSEL -->
 <div id="myCarousel" class="carousel slide container-fluid" data-ride="carousel">
@@ -142,7 +30,7 @@
 	<div class="item active">
     	<img src="img/slider1.jpg" alt="Ciencia" width="1600" height="530">
 	</div>
->>>>>>> pruebas
+
 
     <div class="item">
     	<img src="img/slider2.jpg" alt="Auto honda" width="1600" height="530">

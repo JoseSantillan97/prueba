@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Plantillas</title>
+	<title>Café de olla</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -129,7 +129,7 @@
 >>>>>>> pruebas:paginas/principal.php
 
 <!-- AQUI INICIA EL CARRUSEL -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide container-fluid" data-ride="carousel">
   <!-- Indicators -->
 	<ol class="carousel-indicators">
 		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -140,21 +140,21 @@
   <!-- Wrapper for slides -->
 <div class="carousel-inner" align="center">
 	<div class="item active">
-    	<img src="img/slide1.jpg" alt="Ciencia" width="1600" height="530">
+    	<img src="img/slider1.jpg" alt="Ciencia" width="1600" height="530">
 	</div>
 >>>>>>> pruebas
 
     <div class="item">
-    	<img src="img/slide2.jpg" alt="Auto honda" width="1600" height="530">
+    	<img src="img/slider2.jpg" alt="Auto honda" width="1600" height="530">
     </div>
 
     <div class="item">
-    	<img src="img/slide3.jpg" alt="Comedor" width="1600" height="530">
+    	<img src="img/slider3.jpg" alt="Comedor" width="1600" height="530">
     </div>
 </div>
 
   <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+  <a class="left carousel-control container-fluid" href="#myCarousel" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
     <span class="sr-only">Previous</span>
   </a>
@@ -166,9 +166,9 @@
 <!-- AQUI TERMINA EL CARRUSEL -->
 
 <!-- AQUI EMPIEZAN LOS ARCICULOS -->
-	<article class="post clearfix">
+	<article class="post clearfix container">
 		<a href="#" class="thumb pull-left">
-			<img src="img/1.jpg" class="img-thumbnail" alt="imagen1">
+			<img src="img/ensalada.jpg" class="img-thumbnail" alt="imagen1">
 		</a>
 		<h2 class="post-title">
 			<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
@@ -184,14 +184,13 @@
 		
 		<div class="contenedor-botones">
 			<a href="#" class="btn btn-primary">Leer mas...</a>
-			<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
 		</div>
 	</article>
 
 
-	<article class="post clearfix">
+	<article class="post clearfix container">
 		<a href="#" class="thumb pull-left">
-			<img src="img/2.jpg" class="img-thumbnail" alt="imagen2">
+			<img src="img/costillas.jpg" class="img-thumbnail" alt="imagen2">
 		</a>
 		<h2 class="post-title">
 			<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
@@ -207,13 +206,12 @@
 		
 			<div class="contenedor-botones">
 				<a href="#" class="btn btn-primary">Leer mas...</a>
-			<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
-		</div>
+			</div>
 	</article>
 
-	<article class="post clearfix">
+	<article class="post clearfix container">
 		<a href="#" class="thumb pull-left">
-			<img src="img/3.png" class="img-thumbnail" alt="imagen3">
+			<img src="img/postre.jpg" class="img-thumbnail" alt="imagen3">
 		</a>
 		<h2 class="post-title">
 			<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
@@ -228,6 +226,10 @@
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
+
+			<div class="contenedor-botones">
+				<a href="#" class="btn btn-primary">Leer mas...</a>
+			</div>
 	</article>
 
 <!-- AQUI TERMINAN LOS ARCICULOS -->				
